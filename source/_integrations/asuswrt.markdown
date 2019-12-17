@@ -47,7 +47,7 @@ protocol:
   type: string
   default: ssh
 port:
-  description: SSH port to use.
+  description: Port to use for `ssh` or `telnet`
   required: false
   type: integer
   default: 22
